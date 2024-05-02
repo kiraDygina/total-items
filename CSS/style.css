@@ -1,0 +1,169 @@
+.contanier-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Три колонки равной ширины */
+  gap: 20px; /* Пространство между элементами */
+  margin-top: 100px;
+}
+
+.cartItems {
+  width: 100%; /* Чтобы элементы занимали всю доступную ширину колонки */
+  height: 150px;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+
+img {
+
+  width: 150px; 
+  height: 150px;
+}
+nav{display:flex;
+  
+  justify-content: space-evenly;
+  width: 800px;
+  margin: 0 auto;
+}
+nav a{text-decoration: none;
+color: black;
+font-size: 18px;
+font-weight: 800;}
+
+
+.modal{display: none;}
+
+/* Стилі для модального вікна */
+.modal {
+  
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* прозорість тла */
+}
+
+.modal-content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Стилі для зображень товарів у кошику */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px; /* розмір зменшеної картинки */
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-item-text {
+  flex: 1;
+}
+
+
+
+
+#totalPrice{background-color: black;
+color: #fff;
+padding: 10px;
+width: 200px;}
+
+
+.delete-item {
+ margin-left: 50px;
+}
+
+
+.quantity-controls{
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+/*Кнопки "+" та "-":*/
+
+.quantity-controls button {
+
+}
+/*Текстове поле для кількості товару:*/
+
+.quantity-controls span {
+ 
+}
+/*Загальна кількість товару у кошику:*/
+
+.korz {
+ color: red;
+}
+/*Опис товару:*/
+
+.cart-item-description p {
+
+  width: 250px;
+  font-weight: 600;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stul{
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+
+ 
+
+#cartLink::before{content: url(https://i.postimg.cc/bw2B1Sxh/free-icon-shopping-bag-2567829-1.png);}
+
+
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LogikaShop</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div class="contanier">
+    <h1>Онлайн магазин</h1>
+  </div>
+
+  <nav>
+    <a href="#">НАШ САЙТ</a>
+    <a href="#" id="cartLink">Кошик<small class="korz">0</small></a>
+  </nav>
+
+  <div class="contanier-main">
+    <div class="cartItems">
+      <img src="https://i.allo.ua/media/catalog/product/cache/1/small_image/212x184/9df78eab33525d08d6e5fb8d27136e95/s/m/sm-m346_galaxy_m34_5g_dark_blue_front.jpg"/>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est laboriosam adipisci, dolore id repudiandae .</p>
+      <button class="add-to-cart" data-price="7000">7000 ua</button>
+    </div>
+
+    <div class="cartItems">
+      <img src="https://content1.rozetka.com.ua/goods/images/big_tile/398085805.jpg"/>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est laboriosam adipisci, dolore id repudiandae .</p>
+      <button class="add-to-cart" data-price="5000">5000 ua</button>
+    </div>
+
+    <div class="cartItems">
+      <img src="https://content2.rozetka.com.ua/goods/images/big_tile/364834252.jpg"/>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est laboriosam adipisci, dolore id repudiandae .</p>
+      <button class="add-to-cart" data-price="10000">10000 ua</button>
+    </div>
+  </div>
+
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Кошик</h2>
+      <div id="cartItems"></div>
+      <div class="stul">
+        <p id="totalPrice">Всього в кошику: 0</p>
+        <button id="checkoutBtn">Оформити покупку</button>
+    </div>
+    </div>
+  </div>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
